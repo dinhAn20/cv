@@ -11,7 +11,7 @@ import JojoMobileLogo from "./jojomobile.png";
 import MonitoLogo from "./monito.svg";
 import MobileVikingsLogo from "./mv.png";
 import NSNLogo from "./nsn.svg";
-import ParabolLogo from "./parabol.svg";
+import MpossLogo from "./mposs.svg";
 import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
@@ -30,7 +30,7 @@ export {
   MonitoLogo,
   MobileVikingsLogo,
   NSNLogo,
-  ParabolLogo,
+  MpossLogo,
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,

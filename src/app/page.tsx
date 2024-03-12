@@ -144,11 +144,11 @@ export default function Page() {
             return (
               <Card key={education.school}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-start justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-nowrap text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
                   </div>
