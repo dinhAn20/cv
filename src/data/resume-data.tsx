@@ -29,8 +29,9 @@ export const RESUME_DATA = {
     "Flutter developer focused on building products with extra attention to detail",
   summary:
     "Flutter developer with 1.5 years of experience building mobile apps. Proficient in frontend development with 3 months of experience. Quick learner, team player, and excellent communicator.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl:
+    "https://static.topcv.vn/avatars/UdZbu9XXggsgdi0LN33a_638dbd8131e1e_cvtpl.jpg",
+  personalWebsiteUrl: "https://www.facebook.com/leesingosu",
   contact: {
     email: "nguyendinhan0703@gmail.com",
     tel: "+84968449017",
