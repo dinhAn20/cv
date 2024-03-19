@@ -26,9 +26,9 @@ export const RESUME_DATA = {
   location: "Da Nang, Viet Nam",
   locationLink: "https://www.google.com/maps/place/Đà+Nẵng",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Flutter developer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Flutter developer with 1.5 years of experience building mobile apps. Proficient in frontend development with 3 months of experience. Quick learner, team player, and excellent communicator.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -71,29 +71,29 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Developed and optimized features for mobile apps (Flutter) including E-commerce, Book reading, POS, and Social networks. Also implemented and optimized features for web applications (ReactJS & NextJS) like E-commerce and Customer help desk systems.        Technologies: Flutter, Dart, Firebase, ReactJS, NextJS, ...",
     },
     {
       company: "Papagroup Technology",
       link: "https://papagroup.net",
       badges: [],
-      title: "Mobile Mobile Developer",
+      title: "Mobile Developer",
       logo: ClevertechLogo,
       start: "2022",
       end: "2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Developed and optimized features for mobile apps (Flutter) including E-commerce, Game",
     },
     {
       company: "FPT Software",
-      link: "https://bsgroup.eu/",
+      link: "https://fptsoftware.com/",
       badges: ["Remote"],
       title: "Web Developer",
       logo: JojoMobileLogo,
       start: "2020",
       end: "2020",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Intern JavaWeb(JSP Servlet). Working on front-end: Html, Css, Bootstrap. Working on Back-end: SQL server, JSP.",
     },
   ],
   skills: [
@@ -106,64 +106,56 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
+      title: "MPOSS - unpublished",
+      techStack: ["Flutter", "Dart", "REST API"],
+      teamSize: 3,
+      description:
+        "A cross-platform aplication that helps businesses track sales, manage inventory, and accept payments",
       logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      link: {},
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
+      title: "MFSHOP - unpublished",
+      teamSize: 3,
+      techStack: ["Flutter", "Dart", "REST API"],
+      description: "A E-Commerce cross-platform application",
       logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+      link: {},
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Miss Independent",
+      teamSize: 2,
+      techStack: ["Flutter", "Dart", "REST API", "Socket"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "An app offers networking, coaching, design services, and sales channels to help women of all backgrounds succeed",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "missindependentme.com",
+        href: "https://missindependentme.com/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "OnlyDesk",
+      teamSize: 3,
+      techStack: ["REST API", "Next.js", "ReactJS", "Typescript"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "A customer support software that allows businesses to provide support to their customers through a web-based interface",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "onlydesk.io",
+        href: "https://onlydesk.io/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "SSSMarket",
+      techStack: ["Dart", "Flutter", "GraphQL"],
+      teamSize: 10,
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "A fashion platform that helps you share your wardrobe with the community, so that items you don't use once again find a new life",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "sssmarket.vn",
+        href: "https://www.sssmarket.vn/",
       },
     },
     {
@@ -175,95 +167,6 @@ export const RESUME_DATA = {
         label: "getyearprogress.com",
         href: "https://getyearprogress.com/",
       },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: MpossLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
