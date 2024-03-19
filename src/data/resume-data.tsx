@@ -112,7 +112,10 @@ export const RESUME_DATA = {
       description:
         "A cross-platform aplication that helps businesses track sales, manage inventory, and accept payments",
       logo: ConsultlyLogo,
-      link: {},
+      link: {
+        label: "mposs.io",
+        href: "https://mposs.io/",
+      },
     },
     {
       title: "MFSHOP - unpublished",
@@ -120,7 +123,10 @@ export const RESUME_DATA = {
       techStack: ["Flutter", "Dart", "REST API"],
       description: "A E-Commerce cross-platform application",
       logo: MonitoLogo,
-      link: {},
+      link: {
+        label: "mposs.io",
+        href: "https://mposs.io/",
+      },
     },
     {
       title: "Miss Independent",
